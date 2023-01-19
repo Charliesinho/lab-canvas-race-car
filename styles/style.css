@@ -1,38 +1,54 @@
 body {
   padding: 0;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .game-intro {
   float: left;
-  padding: 0% 10%;
+  padding: 0% 22%;
+  background-image: url("https://images4.alphacoders.com/966/thumb-1920-966314.jpg");
+  background-size: cover;
+  margin: auto 300px auto 300px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.418);
 }
 
 .game-intro p {
   font-size: 18px;
-  font-family: "Verdana"
+  font-family: "Verdana";
+  
 }
 
 .logo-img {
-  width: 350px;
+  padding-top: 70px;
+  width: 450px;
+  
 }
 
 .arrows-img {
   width: 150px;
+  padding-bottom: 30px;
+  padding-top: 39px;
+  
 }
 
 body button {
   font-size: 30px;
-  background-color: #870007;
-  color: #fff;
+  font-weight: 900;
+  background-color: white; 
+  color: rgb(31, 31, 31);
   padding: 20px 40px;
   border: 0;
-  box-shadow: 0;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.418);
   border-radius: 5px;
   margin-bottom: 20px;
 }
 
 #game-board {
     float: left;
-    padding: 20px 0px;
+    padding:5.7% 24.5%;
+    background: rgb(27,156,204);
+background: linear-gradient(180deg, rgba(27,156,204,1) 0%, rgba(128,221,255,1) 49%, rgba(162,239,255,1) 100%);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.418);;
 }
